@@ -14,8 +14,5 @@ public class Main {
         System.out.println(f.simulateManyDays(10, 5) + " day(s)");
         f = new Feeder(0);
         System.out.println(f.simulateManyDays(5, 10) + " day(s)");
-        long time = System.currentTimeMillis();
-        new Feeder(1).simulateManyDays(0, Integer.MAX_VALUE);
-        System.out.println("took " + time + " milliseconds to run");
     }
 }
